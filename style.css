@@ -1,0 +1,76 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+.attribution {
+    font-size: 11px;
+    text-align: center;
+  }
+
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+  }
+
+
+body {
+    max-width: 100%;
+    background: linear-gradient(to bottom right, hsl(273, 75%, 66%), hsl(240, 73%, 65%));
+    font-size: 12px;
+    color: hsl(238, 29%, 16%);
+    font-weight: 400;
+    font-family: 'Kumbh Sans', sans-serif; 
+}
+.row {
+  min-height: 480px;
+  margin: auto;
+  margin-top: 10%;
+  border-radius: 1.5rem;
+  background-color: white;
+  max-width: 90%;
+}
+.card-title {
+  font-weight: 800;
+  top: 100px;
+}
+.questions:hover {
+  color: hsl(14, 88%, 65%);
+}
+.questions {
+  border-bottom: 1px solid black;
+}
+.answers {
+  border-bottom: 1px solid black;
+  display: none;
+ 
+}
+.woman {
+  z-index: 1;
+  position: relative;
+  right: 14px;
+  top: 72px;
+  height: 365px;
+  width: 507px;
+  object-fit: none;
+  object-position: -246% 74%;
+}
+.box {
+  z-index: 1;
+  position: relative;
+  right: 144px;
+  bottom: 152px;
+}
+.shadow-pic {
+  position: absolute;
+  display: inline-block;
+  right: 0px;
+  bottom: -1px;
+  height: 551px;
+  width: 640px;
+  object-fit: none;
+  object-position: 158% 74%;
+
+}
+.col-left {
+  position: relative;
+}
+.arrow-img {
+  object-fit: contain;
+}
