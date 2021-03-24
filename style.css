@@ -6,7 +6,9 @@
   }
 
   .attribution a {
-    color: hsl(228, 45%, 44%);
+    background-color: black;
+    color: hsl(313, 58%, 55%);
+    font-weight: 800;
   }
 
 
@@ -18,59 +20,154 @@ body {
     font-weight: 400;
     font-family: 'Kumbh Sans', sans-serif; 
 }
+.container {
+  min-height: 45rem;
+}
 .row {
-  min-height: 480px;
+  position: relative;
+  min-height: 34rem;
+  min-width: 28rem;
   margin: auto;
-  margin-top: 10%;
+  margin-top: 6.25rem;
   border-radius: 1.5rem;
   background-color: white;
-  max-width: 90%;
-}
-.card-title {
-  font-weight: 800;
-  top: 100px;
-}
-.questions:hover {
-  color: hsl(14, 88%, 65%);
-}
-.questions {
-  border-bottom: 1px solid black;
-}
-.answers {
-  border-bottom: 1px solid black;
-  display: none;
- 
-}
-.woman {
-  z-index: 1;
-  position: relative;
-  right: 14px;
-  top: 72px;
-  height: 365px;
-  width: 507px;
-  object-fit: none;
-  object-position: -246% 74%;
-}
-.box {
-  z-index: 1;
-  position: relative;
-  right: 144px;
-  bottom: 152px;
-}
-.shadow-pic {
-  position: absolute;
-  display: inline-block;
-  right: 0px;
-  bottom: -1px;
-  height: 551px;
-  width: 640px;
-  object-fit: none;
-  object-position: 158% 74%;
-
+  max-width: 62.5rem;
 }
 .col-left {
   position: relative;
 }
+
+.card-title {
+ color:hsl(237, 12%, 33%);
+  font-weight: 800;
+  top: 6rem;
+}
+
+.questions:hover {
+  color: hsl(14, 88%, 65%);
+  transition: 0.5s ;
+}
+.answers {
+  display: block;
+  transition: 1s ;
+  visibility: visible;
+  opacity: 1;
+  height: auto;
+}
+.div-woman-img{
+  position: relative;
+  max-width: 100%;
+  right: 1rem;
+  top: 5rem;
+  z-index: 1;
+  overflow: hidden;
+}
+
+.woman-img {
+  height: auto;
+  max-width: 100%;
+  transform: translateX(-4.8rem);
+
+}
+.div-box-img{
+  max-width: 100%;
+  height: auto;
+}
+.box-img {
+  z-index:1 ;
+  position: absolute;
+  max-width: 100%;
+  top: 13.438rem;
+  right: 26.75rem;
+}
+.div-shadow-img { 
+  /* position image parent element/wrapper/div/container as absolute */
+  /* so that the entire element and its children will not consume space in the document flow*/
+  max-width: 26.563rem;
+  height: 35rem;
+  position: absolute;
+  top: 0rem;
+  right: 4rem;
+  overflow: hidden;
+}
+.shadow-img {
+  position: relative;
+  height: auto;
+  min-width: 1000px;
+  top: -19rem;
+  right: 35rem;
+  transform: translateX(-3.5rem);
+}
+
 .arrow-img {
   object-fit: contain;
+  padding-bottom: 1rem;
 }
+.flex-column {
+  z-index: 1;
+}
+
+/* toggles */
+.hid {
+  visibility: hidden;
+  opacity: 0;
+  transition: 1s , opacity 0.2s;
+  height: 0;
+  margin: 0;
+
+}
+.arrow-up {
+  transform: scaleY(-1);
+  padding-bottom: 0rem;
+  padding-top: 2rem; 
+ 
+}
+.bold {
+  font-weight: 800;
+}
+
+
+@media screen and (max-width: 640px) {
+  .row {
+    margin-top: 10rem;
+    min-width: 100%;
+    border-radius: 2rem;
+    min-height: 37.5rem;
+  }
+  .col-left {
+   height: 5rem;
+   margin: 0;
+   }
+
+  .div-woman-img{
+  background-image: url(./images/illustration-woman-online-mobile.svg);
+  border: 1px solid black;
+  width: 400px;
+  height: 250px;
+  top: -141px;
+  left: 11px;
+  background-size: 350px 250px;
+  background-repeat: no-repeat;
+   }
+  .div-shadow-img{
+  background-image: url(./images/bg-pattern-mobile.svg);
+  border: 1px solid black;
+  width: 25rem;
+  height: 12.5rem;
+  top: -4px;
+  left: 50px;
+  background-size: 80%;
+  background-repeat: no-repeat;
+   }
+   .card-title {
+    align-self: center;
+   }
+    .col-lg-6 {
+    height: 0;
+   } 
+    .box-img {
+    display: none;
+   }
+   .on-mobile{
+     display: none;
+   }
