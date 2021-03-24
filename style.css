@@ -127,7 +127,7 @@ body {
 }
 
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 960px) {
   .row {
     margin-top: 10rem;
     min-width: 100%;
@@ -141,17 +141,19 @@ body {
 
   .div-woman-img{
   background-image: url(./images/illustration-woman-online-mobile.svg);
-  border: 1px solid black;
-  width: 400px;
-  height: 250px;
+ 
+  width: 25rem;
+  height: 15rem;
   top: -141px;
   left: 11px;
   background-size: 350px 250px;
   background-repeat: no-repeat;
+  justify-self: center;
+  align-self: start;
    }
   .div-shadow-img{
   background-image: url(./images/bg-pattern-mobile.svg);
-  border: 1px solid black;
+
   width: 25rem;
   height: 12.5rem;
   top: -4px;
