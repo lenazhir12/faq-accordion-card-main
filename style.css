@@ -164,6 +164,9 @@ body {
    .card-title {
     align-self: center;
    }
+.flex-column {
+    margin-top: 5rem;
+}
     .col-lg-6 {
     height: 0;
    } 
