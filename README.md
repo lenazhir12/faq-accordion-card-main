@@ -35,8 +35,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [check my solution here!](https://github.com/lenazhir12/faq-accordion-card-main.git)
+- Live Site URL: [Check it live here!](https://lenazhir12.github.io/faq-accordion-card-main/)
 
 ## My process
 
@@ -47,7 +47,7 @@ Users should be able to:
 - Flexbox
 - CSS Grid
 
-- [Styled Components](https://bootstrap.com/) - For styles
+- [Bootstrap framework](https://www.bootstrap.com/) - For styles
 
 
 
@@ -68,18 +68,19 @@ lots of practice and understanding on display elements, images and ect.
 
 ### Useful resources
 
-- [Example resource 1](https://www.developer.mozilla.org) - for css and other stuff
-- [Example resource 2](https://www.bootstrap.com) - for styling, first time using bootstrap
+- [Mozilla Developer Org](https://www.developer.mozilla.org) - for css and other stuff
+- [Bootstrap](https://www.bootstrap.com) - for styling, first time using bootstrap
 
 
 ## Author
 
-- Website - [lenazhir12](https://www.your-site.com)
-- Frontend Mentor - [@lenazhir12](https://www.frontendmentor.io/profile/yourusername)
+- Website - [lenazhir12](#)
+- Frontend Mentor - [@lenazhir12](https://www.frontendmentor.io/profile/lenazhir12)
 
 
 
 ## Acknowledgments
 
 THANK YOU! GOOGLE!!
+FRONTEND MENTOR
 
