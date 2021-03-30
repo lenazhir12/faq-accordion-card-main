@@ -33,34 +33,21 @@ body {
   background-color: white;
   max-width: 62.5rem;
 }
-.col-left {
+.col-left{
   position: relative;
-}
 
-.card-title {
- color:hsl(237, 12%, 33%);
-  font-weight: 800;
-  top: 6rem;
 }
-
-.questions:hover {
-  color: hsl(14, 88%, 65%);
-  transition: 0.5s ;
-}
-.answers {
-  display: block;
-  transition: 1s ;
-  visibility: visible;
-  opacity: 1;
-  height: auto;
+.btn {
+  text-align: start;
 }
 .div-woman-img{
-  position: relative;
-  max-width: 100%;
-  right: 1rem;
-  top: 5rem;
+  position: absolute;
   z-index: 1;
-  overflow: hidden;
+ max-width: 100%;
+ height: auto;
+overflow: hidden;
+right: 1rem;
+top: 5rem;
 }
 
 .woman-img {
@@ -70,19 +57,22 @@ body {
 
 }
 .div-box-img{
-  max-width: 100%;
+ 
+  position: absolute;
+  z-index: 1;
+  max-width: 40%;
   height: auto;
+  top: 13.25rem;
+  
 }
 .box-img {
-  z-index:1 ;
-  position: absolute;
+  z-index: 1;
   max-width: 100%;
-  top: 13.438rem;
-  right: 26.75rem;
+  transform: translateX(-5.5rem);
 }
+
 .div-shadow-img { 
-  /* position image parent element/wrapper/div/container as absolute */
-  /* so that the entire element and its children will not consume space in the document flow*/
+
   max-width: 26.563rem;
   height: 35rem;
   position: absolute;
@@ -97,6 +87,7 @@ body {
   top: -19rem;
   right: 35rem;
   transform: translateX(-3.5rem);
+
 }
 
 .arrow-img {
@@ -106,6 +97,24 @@ body {
 .flex-column {
   z-index: 1;
 }
+
+.card-title {
+  color:hsl(237, 12%, 33%);
+   font-weight: 800;
+   top: 6rem;
+ }
+ 
+ .questions:hover {
+   color: hsl(14, 88%, 65%);
+   transition: 0.5s ;
+ }
+ .answers {
+   display: block;
+   transition: 1s ;
+   visibility: visible;
+   opacity: 1;
+   height: auto;
+ }
 
 /* toggles */
 .hid {
@@ -130,36 +139,32 @@ body {
 @media screen and (max-width: 960px) {
   .row {
     margin-top: 10rem;
-    min-width: 100%;
     border-radius: 2rem;
     min-height: 37.5rem;
   }
   .col-left {
-   height: 5rem;
-   margin: 0;
+
+  position: relative;
    }
 
   .div-woman-img{
-  background-image: url(./images/illustration-woman-online-mobile.svg);
  
+  background-image: url(./images/illustration-woman-online-mobile.svg);
   width: 25rem;
   height: 15rem;
   top: -141px;
-  left: 11px;
   background-size: 350px 250px;
   background-repeat: no-repeat;
-  justify-self: center;
-  align-self: start;
+ left: 4rem;
+
    }
   .div-shadow-img{
   background-image: url(./images/bg-pattern-mobile.svg);
-
-  width: 25rem;
+  width: 23rem;
   height: 12.5rem;
-  top: -4px;
-  left: 50px;
   background-size: 80%;
   background-repeat: no-repeat;
+  left: 7rem;
    }
    .card-title {
     align-self: center;
