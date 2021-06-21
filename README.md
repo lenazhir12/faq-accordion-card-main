@@ -36,7 +36,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [check my solution here!](https://github.com/lenazhir12/faq-accordion-card-main.git)
-- Live Site URL: [Check it live here!](https://lenazhir12.github.io/faq-accordion-card-main/)
+- Live Site URL: [Check it live here!](https://lenazhir12.github.io/faq_accordion_card_main--frontEndMentor/)
 
 ## My process
 
